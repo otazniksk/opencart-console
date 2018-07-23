@@ -1,0 +1,22 @@
+{
+    "name": "otazniksk/opencart-console",
+    "description": "Opencart Console for Developers.",
+    "type": "MIT",
+    "require": {
+        "symfony/console": "^3.4",
+        "nette/php-generator": "2.6",
+        "nette/neon": "^2.4",
+        "nette/finder": "^2.4"
+    },
+    "authors": [
+        {
+            "name": "Michal Skop",
+            "email": "programatorsk@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "otazniksk\\OpencartConsole\\": "src/"
+        }
+    }
+}
