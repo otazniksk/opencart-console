@@ -50,7 +50,7 @@ class CreateExtensionCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $output->writeln("\n");
-        $output->writeln("<comment>*******************************</comment>" . $this->dir);
+        $output->writeln("<comment>*******************************</comment>");
         $output->writeln("<comment>**** New Extension CREATOR ****</comment>");
         $output->writeln("<comment>-------------------------------</comment>\n");
 
@@ -88,9 +88,6 @@ class CreateExtensionCommand extends Command
 
         // BUILD EXTENSION
         $template      = new Templates($mr);
-
-        $xxx  = $template->createCatalogController($extension_file_name);
-        FileSystem::write($this->dir . trim($extension_destination_folder) . 'xxx.php', $xxx);
 
         // ADMIN
         if (in_array(self::ADMIN, $extension_type)){
