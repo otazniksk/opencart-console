@@ -1,0 +1,14 @@
+version:
+    v2:
+        extension:
+                admin:
+                    controller: 'controller/extension/module/{file_name}.php'
+                    language: 'language/{iso}/extension/module/{file_name}.php'
+                    model: 'model/extension/module/{file_name}.php'
+                    view: 'view/template/extension/module/{file_name}.tpl'
+
+                catalog:
+                    controller: 'controller/extension/module/{file_name}.php'
+                    language: 'language/{iso}/extension/module/{file_name}.php'
+                    model: 'model/extension/module/{file_name}.php'
+                    view: 'view/theme/{theme-name}/template/extension/module/{file_name}.tpl'

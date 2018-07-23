@@ -1,0 +1,9 @@
+default: en-gb
+languages:
+    - en-gb
+    - sk-sk
+    - cs-cz
+    - hr-Hr
+    - ro-ro
+    - sl-Sl
+    - hu-Hu
