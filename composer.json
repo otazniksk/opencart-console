@@ -1,7 +1,8 @@
 {
     "name": "otazniksk/opencart-console",
     "description": "Opencart Console for Developers.",
-    "type": "MIT",
+    "type": "library",
+    "license": "MIT",
     "require": {
         "symfony/console": "^3.4",
         "nette/php-generator": "2.6",
