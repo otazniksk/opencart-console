@@ -17,7 +17,7 @@ Available commands tools
 - <b>Create new Extension</b> - <i>create:extension</i>
 
 <br />
-After the installation create file "opencart" in home directory your Opencart.
+After the installation create file "opencart" in home directory your Opencart  or download <a href="https://github.com/otazniksk/opencart-console/blob/master/opencart">opencart</a> raw file.
 
 > file: <b>opencart</b>
 
